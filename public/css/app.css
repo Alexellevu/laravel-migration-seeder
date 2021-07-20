@@ -4,17 +4,12 @@
   padding: 0;
 }
 
-#site_main {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
 .card {
   margin: 10px;
   padding: 10px;
   border: 2px solid lightblue;
   border-radius: 5px;
+  background-color: cyan;
 }
 
 #site_main {
@@ -22,5 +17,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  background-color: rgba(255, 255, 255, 0.698);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
