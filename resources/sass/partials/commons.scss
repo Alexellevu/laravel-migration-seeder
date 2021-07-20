@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#site_main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

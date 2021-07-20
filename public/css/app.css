@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#site_main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid lightblue;
+  border-radius: 5px;
+}
+
+#site_main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
