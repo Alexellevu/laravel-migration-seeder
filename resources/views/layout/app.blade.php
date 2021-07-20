@@ -13,7 +13,7 @@
        
     </head>
     <body>
-
+        @include('partials.header')
         <main class="" id="site_main">
              @yield('content')
         </main>
