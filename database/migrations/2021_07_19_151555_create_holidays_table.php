@@ -15,12 +15,11 @@ class CreateHolidaysTable extends Migration
     {
         Schema::create('holidays', function (Blueprint $table) {
             $table->id();
-            $table->string('place');
-            $table->string('region');
+            $table->string('city');
+            $table->string('country');
             $table->decimal('price');
             $table->string('hotel');
-            $table->string('description');
-            $table->string('image');
+            $table->string('image_url');
             $table->timestamps();
         });
     }
