@@ -13,6 +13,20 @@
        
     </head>
     <body>
+
         
+    @foreach ($holidays as $holiday)
+    
+           <div class="card">
+                <h2> {{$holiday->city}} </h2>
+                <img src="{{$holiday->image_url}}" >
+                <h3>{{$holiday->country}}</h3>
+                <h4>{{$holiday->price}}</h4>
+          
+            </div>
+    
+    @endforeach
+        
+
     </body>
 </html>
